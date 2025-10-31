@@ -16,7 +16,7 @@ int main()
 		obj.GetAverage();
 		obj.Print();
 
-		Student obj1();
+		Student obj1;
 		obj1.Input();
 		obj1.Print();
 	}

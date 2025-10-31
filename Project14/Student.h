@@ -14,7 +14,7 @@ public:
 	Student();
 	Student(string n, string s, int a, double Av, int y);
 	void Print();
-	void Input(string n, string s, int a, double Av, int y);
+	void Input();
 	void SetYear(int y);
 	void SetAge(int a);
 	void SetAverage(double Av);
@@ -59,7 +59,7 @@ void Student::Print()
 		<< "Year: " << year << endl << endl;
 }
 
-void Student::Input(string n, string s, int a, double Av, int y)
+void Student::Input()
 {
 	cout << "Name: " << endl;
 	cin >> name;
