@@ -67,7 +67,7 @@ void Student::Input()
 	cin >> surname;
 	cout << "Age: " << endl;
 	int a;
-	cin >> age;
+	cin >> a;
 	if (a < 17 || a > 65)
 	{
 		throw "Age exception!!";
@@ -75,7 +75,7 @@ void Student::Input()
 	age = a;
 	cout << "Average: " << endl;
 	double Av;
-	cin >> Average;
+	cin >> Av;
 	if (Av < 0)
 	{
 		throw "Average exception!!";
@@ -83,7 +83,7 @@ void Student::Input()
 	Average = Av;
 	cout << "Year: " << endl;
 	int y;
-	cin >> year;
+	cin >> y;
 	if (y < 1 || y > 5)
 	{
 		throw "Age exception!!";
